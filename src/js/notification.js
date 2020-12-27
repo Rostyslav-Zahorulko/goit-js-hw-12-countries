@@ -1,5 +1,5 @@
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
-import { error } from '@pnotify/core';
+import { error, notice } from '@pnotify/core';
 
-export default error;
+export { error, notice };

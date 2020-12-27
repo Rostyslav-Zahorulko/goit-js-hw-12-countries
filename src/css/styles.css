@@ -18,6 +18,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  border: 1px solid;
 }
 
 ul {
@@ -48,6 +49,7 @@ ul {
   margin-bottom: 50px;
   padding: 10px;
   border: solid 3px;
+  border-radius: 10px;
   width: 360px;
 
   font-weight: 400;

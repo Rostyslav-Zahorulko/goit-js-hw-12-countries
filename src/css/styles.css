@@ -55,6 +55,8 @@ ul {
   line-height: 1;
 }
 
+/* Article */
+
 .card__name {
   margin-top: 0;
   margin-bottom: 50px;
@@ -84,4 +86,16 @@ ul {
 
 .card__languages {
   margin-bottom: 0;
+}
+
+/* List */
+
+.list__country {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.list__country:not(:last-child) {
+  margin-bottom: 20px;
 }

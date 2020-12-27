@@ -13,6 +13,8 @@ function updateMarkup(countryInfo) {
   } else if (countryInfo.length > 1 && countryInfo.length < 11) {
     const markup = listTpl(countryInfo);
     refs.container.insertAdjacentHTML('beforeend', markup);
+  } else {
+    alert('Детализируйте запрос!');
   }
 }
 

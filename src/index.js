@@ -1,4 +1,6 @@
-import './styles.css';
+// import './js/notification';
+import 'modern-normalize/modern-normalize.css';
+import './css/styles.css';
 import refs from './js/refs';
 import fetchCountries from './js/fetch-countries';
 import updateMarkup from './js/update-markup';
